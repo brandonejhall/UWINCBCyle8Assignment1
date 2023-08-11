@@ -158,3 +158,10 @@ body, h1 {
 .cart{
     margin-right: 1.5rem;
 }
+
+.prod-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
