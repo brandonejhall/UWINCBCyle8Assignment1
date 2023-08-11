@@ -8,33 +8,35 @@ body{
     
 }
 
-/* styles.css */
 
-/* Reset some default styles */
+
+
 body, h1 {
     margin: 0;
     padding: 0;
 }
 
-/* Style the white header */
+
 .white-header {
     background-color: white;
-    border-radius: 20px; /* Rounded edges */
+    border-radius: 20px; 
     padding: 20px;
     width: 90%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
     margin-top: 2%;
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-/* Style the search bar */
+
+
 .search-bar {
     display: flex;
     align-items: center;
     width: 15%;
-    border-radius: 30px; /* Rounded edges */
+    border-radius: 30px; 
     overflow: hidden;
 }
 
@@ -42,7 +44,7 @@ body, h1 {
     flex: 1;
     padding: 10px;
     border: none;
-    border-radius: 30px; /* Rounded edges */
+    border-radius: 30px; 
     outline: none;
 }
 
@@ -51,7 +53,7 @@ body, h1 {
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 30px; /* Rounded edges */
+    border-radius: 30px; 
     cursor: pointer;
 }
 
@@ -63,12 +65,13 @@ body, h1 {
 
 .product-button {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     margin-left: 5%;
 }
 
 .products-btn:hover {
-    background-color: transparent; /* Transparent background */
+    background-color: transparent; 
     color: #0056b3;
     border: none;
     cursor: pointer;
@@ -76,7 +79,7 @@ body, h1 {
 }
 
 .products-btn {
-    background-color: transparent; /* Transparent background */
+    background-color: transparent; 
     color: black;
     border: none;
     cursor: pointer;
@@ -124,4 +127,34 @@ body, h1 {
 
 .prod-card-cont{
     margin-top: 10%;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+}
+
+.add-to-cart-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+    fill: purple;
+    vertical-align: middle;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart{
+    margin-right: 1.5rem;
 }
