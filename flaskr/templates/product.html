@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block main %}
+    <div class = "product-pg">
+    {% for i in prod %}
+    
+    <div class="card " style="width: 18rem;">
+        <img class="card-img-top" src={{i[0]}} alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{i[1]}}</h5>
+          <a href="product/{{i[3]}}" class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+{% endblock %}

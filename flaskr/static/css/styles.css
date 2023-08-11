@@ -67,7 +67,7 @@ body, h1 {
     margin-left: 5%;
 }
 
-.product-button button:hover {
+.products-btn:hover {
     background-color: transparent; /* Transparent background */
     color: #0056b3;
     border: none;
@@ -75,11 +75,12 @@ body, h1 {
     
 }
 
-.product-button button {
+.products-btn {
     background-color: transparent; /* Transparent background */
     color: black;
     border: none;
     cursor: pointer;
+    text-decoration: none;
     
 }
 
@@ -92,4 +93,35 @@ body, h1 {
     flex-direction: column;
     flex-wrap: nowrap;
 
+}
+
+.product-pg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product-pg > *{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: center;
+
+}
+
+.prod-img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.prod-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.prod-card-cont{
+    margin-top: 10%;
 }

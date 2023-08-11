@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="card mb-3 prod-card-cont">
+    <div class="prod-card" >
+        <img class="card-img-top prod-img" src={{prod[prod_id][0]}} alt="Card image cap">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{prod[prod_id][1]}}</h5>
+      <p class="card-text">{{prod[prod_id][2]}}</p>
+    </div>
+  </div>
+{% endblock %}
