@@ -8,9 +8,6 @@ body{
     
 }
 
-
-
-
 body, h1 {
     margin: 0;
     padding: 0;
@@ -88,7 +85,7 @@ body, h1 {
 }
 
 .focal-point{
-    margin-top: 20%;
+    margin-top: 1%;
 }
 
 .container{
@@ -117,16 +114,21 @@ body, h1 {
 .prod-img{
     max-width: 50%;
     max-height: 50%;
+    
 }
 
 .prod-card{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: fit-content;
+    padding: 5%;
 }
 
 .prod-card-cont{
-    margin-top: 10%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
 }
 
 .quantity-input {
@@ -134,20 +136,6 @@ body, h1 {
     text-align: center;
 }
 
-.add-to-cart-button {
-    background-color: purple;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.cart-icon {
-    width: 30px;
-    height: 30px;
-    fill: purple;
-    vertical-align: middle;
-}
 
 .left{
     width: 50%;
