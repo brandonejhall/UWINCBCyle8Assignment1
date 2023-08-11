@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221,237,250);
+    background: radial-gradient(circle, rgba(221,237,250,1) 0%, rgba(142,202,226,1) 100%);
+    
+}
+
+/* styles.css */
+
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the white header */
+.white-header {
+    background-color: white;
+    border-radius: 20px; /* Rounded edges */
+    padding: 20px;
+    width: 90%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    border-radius: 30px; /* Rounded edges */
+    overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 30px; /* Rounded edges */
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px; /* Rounded edges */
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.product-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5%;
+}
+
+.product-button button:hover {
+    background-color: transparent; /* Transparent background */
+    color: #0056b3;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.product-button button {
+    background-color: transparent; /* Transparent background */
+    color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.focal-point{
+    margin-top: 20%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}

@@ -1,9 +1,9 @@
 from flaskr import app
-
+from flask import render_template
 
 @app.route('/')
 def homepage():
-    return "Home Page"
+    return render_template("homepage.html")
 
 @app.route('/products')
 def products():
@@ -11,4 +11,4 @@ def products():
 
 @app.route('/products/<products_id>')
 def products_id():
-    return "speciifc product"
+    return "speciifc products"
